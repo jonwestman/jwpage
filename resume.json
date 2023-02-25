@@ -1,0 +1,68 @@
+[
+    {
+        "name" : "Nouryon",
+        "position" : "Processoperatör",
+        "startdatum" : "2016-12",
+        "slutdatum" : "pågående"
+    },
+    {
+        "name" : "AkzoNobel",
+        "position" : "Logistikoperatör",
+        "startdatum" : "2015-02",
+        "slutdatum" : "2016-11"
+    },
+    {
+        "name" : "AkzoNobel",
+        "position" : "Logistikoperatör",
+        "startdatum" : "2014-05",
+        "slutdatum" : "2014-08"
+    },
+    {
+        "name" : "AFAB",
+        "position" : "Översättare",
+        "startdatum" : "2014-02",
+        "slutdatum" : "2014-04"
+    },
+    {
+        "name" : "Lerna Bemanning",
+        "position" : "Logistikoperatör",
+        "startdatum" : "2013-11",
+        "slutdatum" : "2013-12"
+    },
+    {
+        "name" : "Telia",
+        "position" : "Kundtjänstmedarbetare",
+        "startdatum" : "2012-05",
+        "slutdatum" : "2013-01"
+    },
+    {
+        "name" : "Lerna Bemanning",
+        "position" : "Logistikoperatör",
+        "startdatum" : "2012-02",
+        "slutdatum" : "2012-05"
+    },
+    {
+        "name" : "Lerna Bemanning",
+        "position" : "Logistikoperatör",
+        "startdatum" : "2010-11",
+        "slutdatum" : "2011-01"
+    },
+    {
+        "name" : "Milko Mejerier",
+        "position" : "Kundtjänstmedarbetare",
+        "startdatum" : "2010-05",
+        "slutdatum" : "2010-09"
+    },
+    {
+        "name" : "Shell AB Bensinstationer",
+        "position" : "Butiksmedarbetare",
+        "startdatum" : "2008-05",
+        "slutdatum" : "2009-02"
+    },
+    {
+        "name" : "JetPak AB",
+        "position" : "Logistikoperatör",
+        "startdatum" : "2007-09",
+        "slutdatum" : "2007-11"
+    }
+]

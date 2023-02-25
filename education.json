@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "Edugrade",
+        "position" : "Systemutvecklare .NET med AI-kompetens",
+        "startdatum" : "2022-09",
+        "slutdatum" : "pågående"
+    },
+    {
+        "name" : "Creando Training",
+        "position" : "Processoperatör",
+        "startdatum" : "2017-09",
+        "slutdatum" : "2019-05"
+    },
+    {
+        "name" : "Hedbergska Gymnasium",
+        "position" : "Samhälle/Ekonomi",
+        "startdatum" : "2004-08",
+        "slutdatum" : "2007-06"
+    },
+    {
+        "name" : "Matfors Grundskola",
+        "position" : "",
+        "startdatum" : "1995-08",
+        "slutdatum" : "2004-06"
+    }
+]
