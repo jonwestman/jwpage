@@ -1,11 +1,63 @@
 import React from "react"
 import { Container } from "react-bootstrap"
 
-export const CvComponent = () => {
+
+export let CvComponent = () => {
+    function GetWorkExp(){
+        fetch('resume.json'
+        ,{
+            headers : { 
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+             }
+          })
+            .then(res => {
+                return res.json();
+            })
+            .then(data => {
+                data.forEach(element => {
+                    const markup = `<li>${element.name},  ${element.position},  ${element.startdatum} - ${element.slutdatum}</li>`;
+    
+    
+                    document.querySelector('#work').insertAdjacentHTML('beforeend', markup)
+                });
+            })
+            .catch(error => console.log(error));
+        };    
+        GetWorkExp();
+    
+        function GetEduData(){
+            fetch('education.json'
+            ,{
+                headers : { 
+                  'Content-Type': 'application/json',
+                  'Accept': 'application/json'
+                 }
+              })
+            .then(res => {
+                return res.json();
+            })
+            .then(data => {
+                data.forEach(element => {
+                    const markup = `<li>${element.name},  ${element.position},  ${element.startdatum} - ${element.slutdatum}</li>`;
+    
+    
+                    document.querySelector('#edu').insertAdjacentHTML('beforeend', markup)
+                });
+            })
+            .catch(error => console.log(error));
+        };        
+        GetEduData();
+
     return (
-       <div>
-        <h1>CV</h1>
-        <p>Här finns det plats att skapa en cv sida</p>
-       </div>
-            )
+        <div id ="resume">
+            <h1>Arbetslivserfarenhet:</h1>
+            <ul id="work"></ul>
+
+            <h1>Utdbildning:</h1>
+            <ul id="edu"></ul>
+        </div>
+    )
 }
+
+
