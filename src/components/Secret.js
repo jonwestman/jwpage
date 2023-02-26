@@ -1,22 +1,29 @@
 import React, {useState} from "react";
-import {Modal, Button} from "react-bootstrap";
+import {Bootstrap} from 'bootstrap';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
-// Easter Egg nr 1
+// Easter Egg nr 2
 
 const myKey = "jon";
 
-export const SecretComponent = () =>{
+let checkSecret = false;
+
+export const SecretComponent = () => {
+
     let keyInput = ""
 
     document.addEventListener("keydown", (key) => {
         keyInput += key.key
-        if(myKey === keyInput){
-            // Modal goes here
+        if (myKey === keyInput) {
+            console.log('Success');
+            //Modal goes here
+            checkSecret = true;
         }
-        else{
-            setTimeout(() =>{
+        else {
+            setTimeout(() => {
                 keyInput = ""
-            },2000)
+            }, 3000)
         }
     })
 }

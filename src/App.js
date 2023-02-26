@@ -7,6 +7,9 @@ import {BrowserRouter as Router, HashRouter, Route, Routes} from "react-router-d
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { SecretComponent } from './components/Secret';
+import {AboutMeComponent} from './components/AboutMe';
+import {ContactComponent} from './components/Contact';
+import { ModalComponent } from './components/Modal';
 
 export default function App() {
   return (
@@ -17,9 +20,12 @@ export default function App() {
         <Route path="/" element={<HomeComponent/>} />
         <Route path="/cv" element={<CvComponent/>} />
         <Route path="/portfolio" element={<PortfolioComponent/>} />
+        <Route path="/aboutme" element={<AboutMeComponent/>} />
+        <Route path="/contact" element={<ContactComponent/>} />
       </Routes>
   </HashRouter>
-  <SecretComponent/>
+  <SecretComponent/>  
+  <ModalComponent/>
   </div>
   )
 }
