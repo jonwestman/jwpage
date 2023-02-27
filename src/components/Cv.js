@@ -18,7 +18,7 @@ export let CvComponent = () => {
                 data.forEach(element => {
                     const markup = `<li>${element.name},  ${element.position},  ${element.startdatum} - ${element.slutdatum}</li>`;
     
-    
+                    
                     document.querySelector('#work').insertAdjacentHTML('beforeend', markup)
                 });
             })

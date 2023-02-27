@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import { NavbarComponent } from "./components/NavBar.js";
 import { HomeComponent } from "./components/Home.js";
 import { CvComponent } from "./components/Cv.js";
@@ -6,10 +6,9 @@ import {PortfolioComponent} from './components/Portfolio.js';
 import {BrowserRouter as Router, HashRouter, Route, Routes} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { SecretComponent } from './components/Secret';
 import {AboutMeComponent} from './components/AboutMe';
 import {ContactComponent} from './components/Contact';
-import { ModalComponent } from './components/Modal';
+import { SecretComponent } from './components/Secret';
 
 export default function App() {
   return (
@@ -25,7 +24,6 @@ export default function App() {
       </Routes>
   </HashRouter>
   <SecretComponent/>  
-  <ModalComponent/>
   </div>
   )
 }

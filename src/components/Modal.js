@@ -3,9 +3,9 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const myKey = "jon";
+/*const myKey = "jon";
 
-let checkSecret = false;
+let checkSecret = "";
 
 export const SecretComponent = () => {
 
@@ -28,10 +28,10 @@ export const SecretComponent = () => {
 
 let secretChecked = checkSecret;
 console.log(checkSecret);
-console.log(secretChecked);
+console.log(secretChecked);*/
 
 export const ModalComponent = () => {
-  const [show, setShow] = useState(secretChecked);
+  const [show, setShow] = useState(true);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -62,3 +62,4 @@ export const ModalComponent = () => {
     </>
   );
 }
+

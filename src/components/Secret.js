@@ -2,12 +2,11 @@ import React, {useState} from "react";
 import {Bootstrap} from 'bootstrap';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { ModalComponent } from "./Modal";
 
 // Easter Egg nr 2
 
 const myKey = "jon";
-
-let checkSecret = false;
 
 export const SecretComponent = () => {
 
@@ -17,8 +16,6 @@ export const SecretComponent = () => {
         keyInput += key.key
         if (myKey === keyInput) {
             console.log('Success');
-            //Modal goes here
-            checkSecret = true;
         }
         else {
             setTimeout(() => {
