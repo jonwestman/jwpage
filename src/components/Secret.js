@@ -16,6 +16,7 @@ export const SecretComponent = () => {
         keyInput += key.key
         if (myKey === keyInput) {
             console.log('Success');
+            return true;
         }
         else {
             setTimeout(() => {

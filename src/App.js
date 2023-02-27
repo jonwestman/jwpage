@@ -9,8 +9,10 @@ import './App.css';
 import {AboutMeComponent} from './components/AboutMe';
 import {ContactComponent} from './components/Contact';
 import { SecretComponent } from './components/Secret';
+import { ModalComponent } from "./components/Modal.js";
 
 export default function App() {
+
   return (
     <div>
     <HashRouter>
@@ -23,7 +25,7 @@ export default function App() {
         <Route path="/contact" element={<ContactComponent/>} />
       </Routes>
   </HashRouter>
-  <SecretComponent/>  
+  <SecretComponent/>
   </div>
   )
 }
