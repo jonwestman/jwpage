@@ -1,70 +1,44 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Om uppgiften
 
-## Available Scripts
+Denna uppgift bygger vidare på labb 1 och i denna ska du utveckla din CV-sida så att den även innehåller JavaScript och blir mer dynamisk.
 
-In the project directory, you can run:
+# Vad du ska göra
 
-### `npm start`
+Du ska bygga vidare på din CV-sida från labb 1 och nu se till så att den även följer nedanstående kravställningar:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+☑️ **CV i en fil**
 
-### `npm test`
+Denna del ska byggas med ren JavaScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ ]  Dina utbildningar och tidigare arbetsplatser ska inte längre ligga i HTML-koden
+- [ ]  Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format
+- [ ]  Denna JSON-fil ska kunna läsas och och generera ditt CV
 
-### `npm run build`
+☑️ **Påskägg**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Denna del ska byggas med ren JavaScript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ ]  Du ska skapa två påskägg (Easter eggs) på din webbplats som besökaren ska kunna hitta
+- [ ]  Ditt ena påskägg ska aktiveras av att användaren klickar på någon “udda” del av webbplatsen som man vanligtvis inte brukar klicka på. När denna del klickas på ska webbplatsens bakgrund bytas ut.
+- [ ]  Ditt andra påskägg ska aktiveras när användaren skriver in en kombination på tangentbordet, exempelvis “1337”. När användaren skrivit in kombinationen på tangentbordet ska det komma upp något roligt meddelande i en modal-popup.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+☑️ **Portfolio**
 
-### `npm run eject`
+Denna del ska byggas med React
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [ ]  Din portfolio ska utökas så att den hämtar in publika projekt som finns på din egna Github. Den ska visa dessa projekt i din portfolio med namn och beskrivning.
+    
+    Du får gärna ha både dessa projekt och de tidigare som ligger direkt i HTML-koden om du vill det. Eller så ersätter du de tidigare projekten så att det nu bara blir dina Github-projekt.
+    
+- [ ]  När hämtningen av projekten sker ska det finnas information om att projekten håller på att ladda in så att besökaren inte undrar varför sidan först är tom.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✅ **VG-kriterier**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Om du satsar på VG på denna uppgift och på kursen ska du tänka extra noga på hur du implementerar React. Ju bättre implementation, desto större chans till VG.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Du ska även bygga in följande:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ]  Navigationen på sidan ska baseras på React Router så att hela sidan i praktiken kör React. Dock kan innehållet som laddas på de flesta sidorna vara ren HTML och behöver inte hämtas som exempelvis JSON.
