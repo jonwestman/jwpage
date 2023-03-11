@@ -19,7 +19,7 @@ export const PortfolioComponent = () => {
     }
 
     return (
-        <div id="portfolio">
+        <div className='px-2 py-2' id="portfolio">
             <h1>Portfolio</h1>
             <ul>
                 {repos[0].map((repo) => {
@@ -30,4 +30,3 @@ export const PortfolioComponent = () => {
     );
 
 }
-//<button disabled={isLoading} onClick={loadActivity}>Load another</button>

@@ -3,20 +3,22 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-/*const myKey = "jon";
+//easter egg nr 2
 
-let checkSecret = "";
+export const ModalComponent = () => {
+  const [show, setShow] = useState(false);
 
-export const SecretComponent = () => {
+  const handleClose = () => setShow(false);
+  //const handleShow = () => setShow(true);
 
-    let keyInput = ""
+  const myKey = 'jon';
+
+  let keyInput = ""
 
     document.addEventListener("keydown", (key) => {
         keyInput += key.key
         if (myKey === keyInput) {
-            console.log('Success');
-            //Modal goes here
-            checkSecret = true;
+            setShow(true);
         }
         else {
             setTimeout(() => {
@@ -24,17 +26,6 @@ export const SecretComponent = () => {
             }, 3000)
         }
     })
-}
-
-let secretChecked = checkSecret;
-console.log(checkSecret);
-console.log(secretChecked);*/
-
-export const ModalComponent = () => {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   return (
     <>
@@ -46,7 +37,7 @@ export const ModalComponent = () => {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>Easter Egg nr 2</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           I will not close if you click outside me. Don't even try to press
@@ -56,10 +47,8 @@ export const ModalComponent = () => {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary">Understood</Button>
         </Modal.Footer>
       </Modal>
     </>
   );
 }
-

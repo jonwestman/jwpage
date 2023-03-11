@@ -3,13 +3,14 @@ import { Navbar, Nav } from "react-bootstrap"
 import { Container } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 
-// Easter egg nr 1
+
 
 export const NavbarComponent = (props) => {
 
+  // Easter egg nr 1
+
   function changeColor(color) {
     document.body.style.background = color;
-    //document.body.style.backgroundImage = "url('smiley.gif') blue repeat-x center";
 }
 
 function easterEgg_Run(){
